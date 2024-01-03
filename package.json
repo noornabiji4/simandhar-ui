@@ -1,11 +1,14 @@
 {
-  "name": "sim-ui",
+  "name": "@noornabiji/sim-ui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx mkdirp dist/styles.css"
   },
   "author": "noor",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mkdirp": "^1.0.4"
+  }
 }
